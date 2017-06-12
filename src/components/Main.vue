@@ -1,5 +1,6 @@
 <template>
 <div> 
+  <div style="width:100%;height:400px;background-color:#26a2ff;"></div>
 <mt-navbar class="page-part" v-model="selected">
   <mt-tab-item id="1">选项一</mt-tab-item>
   <mt-tab-item id="2">选项二</mt-tab-item>
