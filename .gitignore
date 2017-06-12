@@ -1,18 +1,13 @@
-<<<<<<< HEAD
+
 .DS_Store
 node_modules/
-=======
 # Logs
 logs
 *.log
->>>>>>> a3913dc8e215ba086ae0e0db8741e5365abbc62b
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-<<<<<<< HEAD
-.DS_Store
-=======
 # Runtime data
 pids
 *.pid
@@ -65,4 +60,3 @@ typings/
 # dotenv environment variables file
 .env
 
->>>>>>> a3913dc8e215ba086ae0e0db8741e5365abbc62b
