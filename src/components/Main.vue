@@ -12,10 +12,10 @@
     <mt-cell v-for="n in 20" :title="'内容 ' + n" :key="n"></mt-cell>
   </mt-tab-container-item>
   <mt-tab-container-item id="2">
-    <router-link v-for="n in 15" :key="n" to="detail">测试{{n}}</router-link>
+     <mt-cell v-for="n in 15" :title="'选项 ' + n" :key="n"></mt-cell>
   </mt-tab-container-item>
   <mt-tab-container-item id="3">
-    <mt-cell v-for="n in 6" :title="'选项 ' + n" :key="n"></mt-cell>
+    <router-link v-for="n in 5" :key="n" to="detail">测试{{n}}</router-link>
   </mt-tab-container-item>
 
 </mt-tab-container>
